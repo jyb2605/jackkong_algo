@@ -27,6 +27,7 @@ int main(){
     vector<int> lotto;
 
     while(true){
+        lotto.clear();
         cin>>num;
         if(num == 0){
             break;
