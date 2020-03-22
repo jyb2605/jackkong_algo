@@ -16,8 +16,11 @@ def dp(numbers: list, n: int, cur: int, lotto: list):
         lotto.pop()
 
 
+# 재귀 한도 올리기
+sys.setrecursionlimit(100000)
+
 while True:
     n, *numbers = map(int, sys.stdin.readline().strip().split())
-    if n == 0: break
+    if not n: break
     print()
     dp(numbers, n, 0, [])
