@@ -1,7 +1,7 @@
 # Week 1
 2020.03.22
 
-### 01.텁
+### 01.탑
 [탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
 
 
