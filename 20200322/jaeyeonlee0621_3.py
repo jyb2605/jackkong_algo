@@ -20,8 +20,8 @@ def solution(progresses, speeds):
         count = 1
         day = stack.pop(0)
         while len(stack) and day >= stack[0]:
-            stack.pop(0)
             count += 1
+            stack.pop(0)
         answer.append(count)
     return answer
 
