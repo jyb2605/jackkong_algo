@@ -1,5 +1,10 @@
 '''
 programmers stack/queue 기능 개발
+
+
++)
+잘 봤습니다~ list 의 0번째 요소를 pop() 하면 log n 만큼의 시간복잡도가 소요될텐데 deque 을 사용하면 더 효율적으로 처리할 수 있는 것 같아요 :)
+https://stackoverflow.com/questions/21639888/is-it-possible-to-convert-list-to-queue-in-python
 '''
 
 import math

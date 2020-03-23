@@ -10,7 +10,7 @@ def solution(priorities, location):
                 count += 1
                 stack[i] -= 1
                 if start == location: return count
-            start = (start + 1) % len_
+            start = (start + 1) % len_ # circular queue
     return count
 
 
