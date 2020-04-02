@@ -1,11 +1,16 @@
 def solution(citations):
     len_ = len(citations)
     citations = sorted(citations)
-    max_ = 0
-    for i in range(len_ - 1, -1, -1):
-        count = len_ - i
-        if citations[i] >= count: max_= count
-    return max_
+    for i in range(len_):
+        if citations[i] >= len_ - i: return len_ - i
+    return 0
 
 
 print(solution([3, 0, 6, 1, 5]))
+
+'''
+def solution(citations):
+    citations.sort(reverse=True)
+    answer = max(map(min, enumerate(citations, start=1)))
+    return answer
+'''
