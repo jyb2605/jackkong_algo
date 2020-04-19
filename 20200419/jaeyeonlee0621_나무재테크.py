@@ -34,24 +34,23 @@ for x in range(n): nourishment.append(list(map(int, sys.stdin.readline().split()
 for _ in range(m):
     x, y, year = map(int, sys.stdin.readline().split())
     tree[x - 1][y - 1].append(year)
-    tree[x - 1][y - 1].sort(reverse=True)
+
+for x in range(n):
+    for y in range(n):
+        if tree[x][y]: tree[x][y].sort(reverse=True)
 
 for _ in range(k):
-    dead_tree = []
 
     # 봄
     for x in range(n):
         for y in range(n):
             for index in range(len(tree[x][y])-1, -1, -1):
                 if land[x][y] < tree[x][y][index]:
-                    for i in range(index, -1, -1): dead_tree.append((x, y, tree[x][y][i]))
+                    for i in range(index, -1, -1): land[x][y] += int(tree[x][y][i] / 2)
                     tree[x][y] = tree[x][y][index + 1:]
                     break
                 land[x][y] -= tree[x][y][index]
                 tree[x][y][index] += 1
-
-    # 여름
-    for x, y, year in dead_tree: land[x][y] += int(year / 2)
 
     # 가을
     for x in range(n):
