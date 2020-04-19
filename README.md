@@ -59,3 +59,11 @@
 [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)<br>
 [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)<br>
 [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
+
+## Week 6
+2020.04.19
+
+### Today
+[나무 재테크[(https://www.acmicpc.net/problem/16235)<br>
+
+
