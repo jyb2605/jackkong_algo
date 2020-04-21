@@ -64,6 +64,6 @@
 2020.04.19
 
 ### Today
-[나무 재테크[(https://www.acmicpc.net/problem/16235)<br>
+[나무 재테크](https://www.acmicpc.net/problem/16235)<br>
 
 
