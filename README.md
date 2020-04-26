@@ -67,3 +67,14 @@
 [나무 재테크](https://www.acmicpc.net/problem/16235)<br>
 
 
+## Week 7
+2020.04.26
+
+### Today
+[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)<br>
+
+### Assignment
+
+[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)<br>
+[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)<br>
+[배스트 엘범](https://programmers.co.kr/learn/courses/30/lessons/42579)
