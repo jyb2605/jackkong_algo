@@ -78,3 +78,8 @@
 [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)<br>
 [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)<br>
 [배스트 엘범](https://programmers.co.kr/learn/courses/30/lessons/42579)
+
+## Week 9
+[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
+[단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
+[저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
