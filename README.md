@@ -80,6 +80,17 @@
 [배스트 엘범](https://programmers.co.kr/learn/courses/30/lessons/42579)
 
 ## Week 9
-[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
-[단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
+[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)<br>
+[단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)<br>
 [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
+
+
+## Week 10
+### Today
+[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)<br>
+[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)<br>
+
+### Assignment
+
+[단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)<br>
+[여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)<br>
