@@ -94,3 +94,12 @@
 
 [단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)<br>
 [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)<br>
+
+## Week 11
+### Today
+[팰린드롬 만들기](https://www.acmicpc.net/problem/1213)<br>
+
+### Assignment
+
+[체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)<br>
+[연구소](https://www.acmicpc.net/problem/14502)<br>
