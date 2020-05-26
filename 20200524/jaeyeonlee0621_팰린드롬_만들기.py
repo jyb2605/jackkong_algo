@@ -1,5 +1,4 @@
 import string
-import copy
 
 
 def solution(name):
@@ -8,28 +7,26 @@ def solution(name):
     for n in name:
         alphabet[string.ascii_uppercase.index(n)] += 1
 
+    answer = []
     middle = []
-    word = []
     for index in range(26):
         if alphabet[index] % 2 == 1:
             middle.append(string.ascii_uppercase[index])
             alphabet[index] -= 1
-        if alphabet[index] > 0 and alphabet[index] % 2 == 0:
-            word.append(string.ascii_uppercase[index])
     if len(middle) > 1:
         return "I'm Sorry Hansoo"
-    answer = copy.deepcopy(word)
+    for index in range(26):
+        for i in range(int(alphabet[index] / 2)):  # 이 부분을 간과해서 오류 발생
+            answer.append(string.ascii_uppercase[index])
     if middle:
         answer.append(middle[0])
-    for index in range(len(word) - 1, -1, -1):
-        answer.append(word[index])
+    for index in range(25, -1, -1):
+        for i in range(int(alphabet[index] / 2)):  # 이 부분을 간과해서 오류 발생
+            answer.append(string.ascii_uppercase[index])
     return ''.join(answer)
 
 
 name = input()
 print(solution(name))
 
-# print(solution('AAAB'))
-# print(solution('AACCCBB'))
-# print(solution('AADDDCCCBB'))
-# print(solution('ACABCB'))
+# ex) AAABB
