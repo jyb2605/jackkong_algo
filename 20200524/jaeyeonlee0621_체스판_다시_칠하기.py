@@ -1,3 +1,7 @@
+'''
+백준 1018
+'''
+
 import sys
 
 col, row = map(int, sys.stdin.readline().split())
