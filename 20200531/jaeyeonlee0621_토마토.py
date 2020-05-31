@@ -4,7 +4,6 @@ row, col = map(int, sys.stdin.readline().split())
 
 box = [[] for _ in range(col)]
 all_ = 0
-
 for y in range(col):
     box[y] = list(map(int, sys.stdin.readline().split()))
     for x in range(row):
