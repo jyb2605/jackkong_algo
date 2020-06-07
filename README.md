@@ -115,3 +115,14 @@
 
 [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)<br>
 [연구소](https://www.acmicpc.net/problem/14502)<br>
+
+<hr/>
+
+## Week 12
+### Today
+[나이트의 이동](https://www.acmicpc.net/problem/7562)<br>
+
+### Assignment
+
+[안전 영역](https://www.acmicpc.net/problem/2468)<br>
+[DSLR](https://www.acmicpc.net/problem/9019)<br>
