@@ -14,10 +14,10 @@ def solution(n, times):
     return max_
 
 
-# print(solution(6, [7, 10]))
-# print(solution(10, [1, 5]))
-# print(solution(1, [2, 2]))
-# print(solution(1000000000, [1, 1000000000, 1000000000]))
+print(solution(6, [7, 10]))
+print(solution(10, [1, 5]))
+print(solution(1, [2, 2]))
+print(solution(1000000000, [1, 1000000000, 1000000000]))
 
 print(solution(6, [7,10])) # 28
 print(solution(6, [6,10])) # 24
