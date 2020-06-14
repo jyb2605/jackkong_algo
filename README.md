@@ -126,3 +126,14 @@
 
 [안전 영역](https://www.acmicpc.net/problem/2468)<br>
 [DSLR](https://www.acmicpc.net/problem/9019)<br>
+
+<hr/>
+
+## Week 13
+### Today
+[예산](https://programmers.co.kr/learn/courses/30/lessons/43237)<br>
+
+### Assignment
+
+[입국 심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br>
+[징검 다리](https://programmers.co.kr/learn/courses/30/lessons/43236)<br>
