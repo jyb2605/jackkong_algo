@@ -16,7 +16,7 @@
 
 
 ### :pencil2: Contributors
-| [Danbi] | [JaeYeonLee0621](https://github.com/JaeYeonLee0621) | [jyb2605](https://github.com/jyb2605) |
+| [Danbi](https://github.com/danbi5228) | [JaeYeonLee0621](https://github.com/JaeYeonLee0621) | [jyb2605](https://github.com/jyb2605) |
 |:-------------------:|:-------------------:|:-------------------:|
 | [momojh94](https://github.com/momojh94) | [skybluenada](https://github.com/skybluenada) |  |
 
@@ -37,6 +37,8 @@
 | Week 8 (20.05.10) | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)</br> [저울](https://programmers.co.kr/learn/courses/30/lessons/42886) |
 | Week 9 (20.05.17) | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)</br> [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)</br> [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) |
 | Week 10 (20.05.24) | [팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)</br> [연구소](https://www.acmicpc.net/problem/14502) |
-| Week 11 (20.05.31) | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [안전 영역](https://www.acmicpc.net/problem/2468)</br> [DSLR](https://www.acmicpc.net/problem/9019) |
-| Week 12 (20.06.17) | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [입국 심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br> [징검 다리](https://programmers.co.kr/learn/courses/30/lessons/43236) |
-| Week 13 (20.06.14) | | |
+| Week 11 (20.05.31) | [토마토](https://www.acmicpc.net/problem/7576) | [숨바꼭질](https://www.acmicpc.net/problem/1697)</br> [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | 
+| Week 12 (20.06.17) | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [안전 영역](https://www.acmicpc.net/problem/2468)</br> [DSLR](https://www.acmicpc.net/problem/9019) |
+| Week 13 (20.06.14) | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [입국 심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br> [징검 다리](https://programmers.co.kr/learn/courses/30/lessons/43236) |
+| Week 14 | | |
+| Week 15 | | |
