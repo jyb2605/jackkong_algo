@@ -40,5 +40,9 @@
 | Week 11 (20.05.31) | [토마토](https://www.acmicpc.net/problem/7576) | [숨바꼭질](https://www.acmicpc.net/problem/1697)</br> [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | 
 | Week 12 (20.06.17) | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [안전 영역](https://www.acmicpc.net/problem/2468)</br> [DSLR](https://www.acmicpc.net/problem/9019) |
 | Week 13 (20.06.14) | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [입국 심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br> [징검 다리](https://programmers.co.kr/learn/courses/30/lessons/43236) |
-| Week 14 | | |
+| Week 14 (20.06.21) | [공유기 설치](https://www.acmicpc.net/problem/2110) | [나무 자르기](https://www.acmicpc.net/problem/2805)</br> [수 찾기](https://www.acmicpc.net/problem/1920) |
 | Week 15 | | |
+| Week 16 | | |
+| Week 17 | | |
+|  | | |
+|  | | |
