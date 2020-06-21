@@ -3,7 +3,6 @@
 '''
 
 import sys
-from collections import deque
 
 home, router = map(int, sys.stdin.readline().split())
 homes = [0 for _ in range(home)]
