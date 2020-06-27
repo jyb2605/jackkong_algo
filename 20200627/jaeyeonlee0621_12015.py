@@ -10,6 +10,7 @@ for i in range(1, n):
     else:
         start = 0
         end = len(stack)
+        # 작거나 같은 수 중에 최댓값
         while start < end:
             mid = (start + end) // 2
             if stack[mid] >= list_[i]: end = mid
