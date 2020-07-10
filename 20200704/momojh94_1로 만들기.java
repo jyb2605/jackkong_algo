@@ -3,14 +3,18 @@
  * https://www.acmicpc.net/problem/1463
  * 백준 dp
  * 
- * 예전에 C++로 풀었던 1번 방법이 더 좋아보여서 했더니 2번보다 빠르고 메모리 적게 쓴다.
+ * 1번 풀이가 더 빠르다
  * 시간 : 1번 104ms < 2번 132ms
  * 메모리 : 1번 17654 KB < 2번 40748 KB
  *
- * 1번 풀이 ---
- * index 2부터 n까지 dp의 index X-1, X/2, X/3 값 중 제일 작은 연산 값을 찾고 그 값에 +1한 값을 dp[i]에 저장한다.
- * index X/2는 X가 2로 나누어 떨어질 때, X/3는 X가 3으로 나누어 떨어질 때 참조한다.
- * n까지의 반복문이 끝나면 dp[n] 출력하면 정답
+ * 1번 풀이
+ * 예전에 C++로 풀었던 방법이 더 좋아보여서 했더니 2번보다
+빠르고 메모리 적게 쓴다.
+ * 
+ * 1번 부터 n까지 주어진 연산 1, 2, 3 중 더 적은 연산 값 비교하여
+저장한다.
+ * 그리고 dp[n] 출력하면 정답
+ *
  *
  * 2번 풀이 주의---
  * dfs 함수내에 
@@ -27,29 +31,7 @@ current 숫자가 처음으로 방문된 경우 cnt 대입을 해줘야 되므�
 
 // 1번 풀이 - 1부터 n까지 주어진 연산을 하며 dp로 풀기
 
-import java.io.*;
 
-class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int n = Integer.parseInt(br.readLine());
-        int[] dp = new int[1000001];
-        dp[1] = 0;
-        for(int i = 2; i < n+1; i++){
-            dp[i] += dp[i-1] + 1;
-            if(0 == i % 2 && dp[i/2] + 1 < dp[i]){
-                dp[i] = dp[i/2] + 1;
-            }
-            if(0 == i % 3 && dp[i/3] + 1 < dp[i]){
-                dp[i] = dp[i/3] + 1;
-            }
-        }
-        bw.write(Integer.toString(dp[n]));
-        bw.flush();
-        bw.close();
-    }
-}
 
 // 2번 풀이 - n부터 1까지 dfs로 더 적은 연산 횟수 찾기
 
