@@ -33,7 +33,7 @@
 | Week 20 |  |  |
 | Week 19 |  |  |
 | Week 18 |  |  |
-| Week 17 (20.07.12) | | |
+| Week 17 (20.07.12) | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [포도주 시식](https://www.acmicpc.net/problem/2156)</br> [퇴사](https://www.acmicpc.net/problem/14501) |
 | Week 16 (20.07.04) | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [2xn 타일링](https://www.acmicpc.net/problem/11726)</br> [1로 만들기](https://www.acmicpc.net/problem/1463) |
 | Week 15 (20.06.27) | [랜선 자르기](https://www.acmicpc.net/problem/1654) | [K번째 수](https://www.acmicpc.net/problem/1300)</br> [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) |
 | Week 14 (20.06.21) | [공유기 설치](https://www.acmicpc.net/problem/2110) | [나무 자르기](https://www.acmicpc.net/problem/2805)</br> [수 찾기](https://www.acmicpc.net/problem/1920) |
