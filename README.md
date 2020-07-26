@@ -24,7 +24,7 @@
 </br>
 
 ### :bookmark_tabs: Week Study
- > Latest : week 18 - 20.07.19 </br>
+ > Latest : week 19 - 20.07.26 </br>
 
 
 <details>
@@ -33,7 +33,7 @@
 | Date | Today | Assignment |
 | :-: | :-: | :-: |
 | Week 20 |  |  |
-| Week 19 |  |  |
+| Week 19 (20.07.26) | [동전 2](https://www.acmicpc.net/problem/2294) | [내려가기](https://www.acmicpc.net/problem/2096)</br> [암호 코드](https://www.acmicpc.net/problem/2011) |
 | Week 18 (20.07.19) | [스티커](https://www.acmicpc.net/problem/9465) | [다리 놓기](https://www.acmicpc.net/problem/1010)</br> [LCS](https://www.acmicpc.net/problem/9251) |
 | Week 17 (20.07.12) | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [포도주 시식](https://www.acmicpc.net/problem/2156)</br> [퇴사](https://www.acmicpc.net/problem/14501) |
 | Week 16 (20.07.04) | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [2xn 타일링](https://www.acmicpc.net/problem/11726)</br> [1로 만들기](https://www.acmicpc.net/problem/1463) |
