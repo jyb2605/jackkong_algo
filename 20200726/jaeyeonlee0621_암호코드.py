@@ -1,3 +1,6 @@
+'''
+틀려씀ㅜㅜ
+'''
 import sys
 
 number = list(map(int, sys.stdin.readline()[:-1]))
