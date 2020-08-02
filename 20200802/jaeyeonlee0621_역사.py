@@ -12,11 +12,8 @@ for _ in range(history):
 for i in range(event):
     for y in range(event):
         for x in range(event):
-            if y == i or x == i:
-                continue
-            if map_[y][i] == 1 and map_[i][x] == 1:
-                map_[y][x] = 1
             if map_[y][i] == -1 and map_[i][x] == -1:
+                map_[x][y] = 1
                 map_[y][x] = -1
 
 count = int(sys.stdin.readline())
