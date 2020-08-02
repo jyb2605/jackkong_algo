@@ -24,7 +24,24 @@
 </br>
 
 ### :bookmark_tabs: Week Study
- > Latest : week 19 - 20.07.26 </br>
+ > Latest : week 20 - 20.08.02 </br>
+
+<details>
+<summary> Week 21~30 </summary>
+
+| Date | Today | Assignment |
+| :-: | :-: | :-: |
+| Week 30 (20.) | []() | []()</br> []() |
+| Week 29 (20.) | []() | []()</br> []() |
+| Week 28 (20.) | []() | []()</br> []() |
+| Week 27 (20.) | []() | []()</br> []() |
+| Week 26 (20.) | []() | []()</br> []() |
+| Week 25 (20.) | []() | []()</br> []() |
+| Week 24 (20.) | []() | []()</br> []() |
+| Week 23 (20.) | []() | []()</br> []() |
+| Week 22 (20.) | []() | []()</br> []() |
+| Week 21 (20.) | []() | []()</br> []() |
+</details>
 
 
 <details>
@@ -32,7 +49,7 @@
 
 | Date | Today | Assignment |
 | :-: | :-: | :-: |
-| Week 20 |  |  |
+| Week 20 (20.08.02) | [바이러스](https://www.acmicpc.net/problem/2606) | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)</br> [역사](https://www.acmicpc.net/problem/1613) |
 | Week 19 (20.07.26) | [동전 2](https://www.acmicpc.net/problem/2294) | [내려가기](https://www.acmicpc.net/problem/2096)</br> [암호 코드](https://www.acmicpc.net/problem/2011) |
 | Week 18 (20.07.19) | [스티커](https://www.acmicpc.net/problem/9465) | [다리 놓기](https://www.acmicpc.net/problem/1010)</br> [LCS](https://www.acmicpc.net/problem/9251) |
 | Week 17 (20.07.12) | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [포도주 시식](https://www.acmicpc.net/problem/2156)</br> [퇴사](https://www.acmicpc.net/problem/14501) |
