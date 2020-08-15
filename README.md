@@ -24,7 +24,7 @@
 </br>
 
 ### :bookmark_tabs: Week Study
- > Latest : week 20 - 20.08.02 </br>
+ > Latest : week 21 - 20.08.15 </br>
 
 <details>
 <summary> Week 21~30 </summary>
@@ -40,7 +40,7 @@
 | Week 24 (20.) | []() | []()</br> []() |
 | Week 23 (20.) | []() | []()</br> []() |
 | Week 22 (20.) | []() | []()</br> []() |
-| Week 21 (20.) | []() | []()</br> []() |
+| Week 21 (20.08.15) | [파티](https://www.acmicpc.net/problem/1238) | [도시 분할 계획](https://www.acmicpc.net/problem/1647)</br> [전력난](https://www.acmicpc.net/problem/6497) |
 </details>
 
 
