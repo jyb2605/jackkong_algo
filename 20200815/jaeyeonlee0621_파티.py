@@ -3,7 +3,6 @@ import sys
 n, m, goal = map(int, sys.stdin.readline().split())
 goal = goal - 1
 
-
 default = 100_000_000
 map_ = [[default for _ in range(n)] for _ in range(n)]
 
