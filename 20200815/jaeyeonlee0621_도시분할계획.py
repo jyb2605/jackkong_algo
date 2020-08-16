@@ -18,7 +18,6 @@ vertexes = []
 for _ in range(count):
     start, end, weight = map(int, sys.stdin.readline().split())
     vertexes.append([weight, start - 1, end - 1])
-    vertexes.append([weight, end - 1, start - 1])
 
 vertexes.sort(key=lambda vertex: vertex[0])
 
