@@ -1,48 +1,40 @@
 import sys
-from heapq import heappop, heappush
 
 
-def bfs(start, end, node, visited):
-    visited_ = [[0 for _ in range(node)] for _ in range(node)]
-    vertex = [0 for _ in range(node)]
-    vertex[start] = 1
-
-    queue = []
-    heappush(queue, [start, end])
-
-    while queue:
-        start, end = heappop(queue)
-
-        if vertex[end]:
-            return True
-
-        vertex[end] = 1
-        visited_[start][end] = 1
-        visited_[end][start] = 1
-
-        for i in range(node):
-            if visited[end][i] and not visited_[end][i]:
-                heappush(queue, [end, i])
-
-    return False
+def find(node):
+    if parent[node] != node:
+        parent[node] = find(parent[node])
+    return parent[node]
 
 
 node, count = map(int, sys.stdin.readline().split())
 
-visited = [[0 for _ in range(node)] for _ in range(node)]
+parent = [i for i in range(node)]  # 나의 부모는 누구인가
+rank = [0 for i in range(node)]  # 가장 최상위 부모가 누구인가 (최상위 일수록 rank up)
+
 answer = []
 vertexes = []
 
 for _ in range(count):
     start, end, weight = map(int, sys.stdin.readline().split())
     vertexes.append([weight, start - 1, end - 1])
+    vertexes.append([weight, end - 1, start - 1])
 
-vertexes.sort(key=lambda vertexes: vertexes[0])
+vertexes.sort(key=lambda vertex: vertex[0])
 
 for weight, start, end in vertexes:
-    if not visited[start][end] and not bfs(start, end, node, visited):
-        visited[start][end] = 1
-        visited[end][start] = 1
+    start_root = find(start)
+    end_root = find(end)
+
+    if start_root != end_root:
         answer.append(weight)
+
+        if rank[start_root] > rank[end_root]:
+            parent[end_root] = start_root
+
+        else:
+            parent[start_root] = end_root
+            if rank[start_root] == rank[end_root]:
+                rank[end_root] += 1
 
 print(sum(answer[:-1]))
