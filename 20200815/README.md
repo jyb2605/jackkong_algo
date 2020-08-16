@@ -39,11 +39,15 @@ while queue:
  
  ## Minimum Spanning Tree (MST)
  - 최소 비용으로 모든 정점을 연결하는 트리
+
+<br/>
  
  ### 크루스칼 알고리즘
  - greedy algorithm
  - 가중치가 가장 적은 것부터 pick
  - 만약 그 간선을 이었을 때 cycle이 생성된다면 해당 간선은 연결하지 않는다
+
+<br/>
  
  ### 프림 알고리즘
  - 선택 노드의 연결된 간선을 모두 min heap(logN) 에 넣고
@@ -62,6 +66,9 @@ def find(node):
         parent[node] = find(parent[node]) # 최상위 부모를 찾아 떠나는 여행
     return parent[node]
 ``` 
+
+<br/>
+
 - 단 최상위 부모가 누구인지 알아야 한다
 ```python
 '''
