@@ -40,8 +40,6 @@ for _ in range(count):
 vertexes.sort(key=lambda vertexes: vertexes[0])
 
 for weight, start, end in vertexes:
-    print(f'{start} {end}')
-    print(bfs(start, end, node, visited))
     if not visited[start][end] and not bfs(start, end, node, visited):
         visited[start][end] = 1
         visited[end][start] = 1
