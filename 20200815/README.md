@@ -1,5 +1,6 @@
 ## 최단 거리 탐색 알고리즘
 - start 부터 end 까지의 최단 거리
+- start 부터 end 사이에 노드를 넣고 거리 비용이 작아지는 지 확인
 
 <br/>
 
@@ -39,11 +40,11 @@ while queue:
  
  ## Minimum Spanning Tree (MST)
  - 최소 비용으로 모든 정점을 연결하는 트리
+ - 사이클 없이 가장 작은 간선부터 연결 (cycle이 생기면 graph)
 
 <br/>
  
  ### 크루스칼 알고리즘
- - greedy algorithm
  - 가중치가 가장 적은 것부터 pick
  - 만약 그 간선을 이었을 때 cycle이 생성된다면 해당 간선은 연결하지 않는다
 
