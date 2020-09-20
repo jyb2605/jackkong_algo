@@ -1,0 +1,53 @@
+import java.util.*;
+import java.util.regex.Pattern;
+
+class Solution {
+    public int solution(String str1, String str2) {
+        if(str1.length() == 0 && str2.length() == 0){
+            return 65536;
+        }
+
+        str1 = str1.toLowerCase();
+        str2 = str2.toLowerCase();
+        HashMap<String, Integer> str1Map = new HashMap<>();
+        HashMap<String, Integer> str2Map = new HashMap<>();
+        HashSet<String> keys = new HashSet<>();
+
+        for(int idx = 0; idx < str1.length() - 1; idx++) {
+            String key = str1.substring(idx, idx + 2);
+            if(str1Map.containsKey(key)) {
+                str1Map.put(key, str1Map.get(key) + 1);
+            }else{
+                str1Map.put(key, 1);
+            }
+            keys.add(key);
+        }
+
+        for(int idx = 0; idx < str2.length() - 1; idx++) {
+            String key = str2.substring(idx, idx + 2);
+            if(str2Map.containsKey(key)) {
+                str2Map.put(key, str2Map.get(key) + 1);
+            }else{
+                str2Map.put(key, 1);
+            }
+            keys.add(key);
+        }
+
+        List<String> arr = new ArrayList<>(keys);
+
+        int max = 0;
+        int min = 0;
+
+        for (String s : arr) {
+            if(Pattern.matches("[a-z]{2}", s)){
+                max += Math.max(str1Map.getOrDefault(s, 0), str2Map.getOrDefault(s, 0));
+                min += Math.min(str1Map.getOrDefault(s, 0), str2Map.getOrDefault(s, 0));
+            }
+        }
+
+        if(max == 0) {
+            return 65536;
+        }
+        return 65536 * min / max;
+    }
+}
