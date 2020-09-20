@@ -1,44 +1,63 @@
-# Jackkong Algorithm Study
+# 💡 Jackkong Algorithm Study
 
-### :pushpin: 알고리즘 사이트
+### :hourglass_flowing_sand: How?
 
-> 다음 사이트를 통해 문제 풀이를 진행합니다.
+>1. 문제 선택
+>    - 매주 1회 주제와 문제 3~4개 선택
+>2. 문제 풀이 및 리뷰
+>    - 지난 주 풀었던 문제 혹은 당일 최소 1개 문제 해결 후 리뷰
+>3. 과제
+>    - 당일 못 풀었던 문제와 함께 남은 문제 과제로 주중에 문제 풀이
+>    - 해당 주 스터디 미참여자는 과제로 문제 풀이 진행
+>4. 풀이 코드 업로드
+>    - 해당 스터디 진행 날짜에 맞는 폴더(ex : week18 문제는 20200719 폴더)에 풀이 코드 업로드
 
-- [BAEKJOON](https://www.acmicpc.net/)</br>
-- [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
+</br>
 
-### :hourglass_flowing_sand: 스터디 진행 방식
+### 👨‍👨‍👧‍👧 Members
 
-1. 매주 1회 주제와 문제 3~4개 선택
-2. 지난 주 풀었던 문제 혹은 당일 최소 1개 문제 해결 후 리뷰
-3. 당일 못 풀었던 문제와 함께 남은 문제 과제로 주중에 문제 풀이 (해당 주 스터디 미 참여자는 모두 과제로 문제 풀이 진행)
-4. 풀이 코드 업로드
+| 1 | 2 | 3 | 4 | 5
+| :-: | :-: | :-: | :-: | :-: |
+| [Danbi](https://github.com/danbi5228) | [JaeYeonLee0621](https://github.com/JaeYeonLee0621) | [jyb2605](https://github.com/jyb2605) | [momojh94](https://github.com/momojh94) | [skybluenada](https://github.com/skybluenada) |
 
 
-### :pencil2: Contributors
-| [Danbi](https://github.com/danbi5228) | [JaeYeonLee0621](https://github.com/JaeYeonLee0621) | [jyb2605](https://github.com/jyb2605) |
-|:-------------------:|:-------------------:|:-------------------:|
-| [momojh94](https://github.com/momojh94) | [skybluenada](https://github.com/skybluenada) |  |
-
-
----
+</br>
 
 ### :bookmark_tabs: Week Study
+ > Latest : week 21 - 20.08.15 </br>
+
+<details>
+<summary> Week 21~30 </summary>
+
+| Date | Today | Assignment |
+| :-: | :-: | :-: |
+| Week 30 (20.) | []() | []()</br> []() |
+| Week 29 (20.) | []() | []()</br> []() |
+| Week 28 (20.) | []() | []()</br> []() |
+| Week 27 (20.) | []() | []()</br> []() |
+| Week 26 (20.) | []() | []()</br> []() |
+| Week 25 (20.) | []() | []()</br> []() |
+| Week 24 (20.) | []() | []()</br> []() |
+| Week 23 (20.) | []() | []()</br> []() |
+| Week 22 (20.) | []() | []()</br> []() |
+| Week 21 (20.08.15) | [파티](https://www.acmicpc.net/problem/1238) | [도시 분할 계획](https://www.acmicpc.net/problem/1647)</br> [전력난](https://www.acmicpc.net/problem/6497) |
+</details>
+
 
 <details>
 <summary> Week 11~20 </summary>
 
 | Date | Today | Assignment |
 | :-: | :-: | :-: |
-| Week 20 |  |  |
-| Week 19 |  |  |
+| Week 20 (20.08.02) | [바이러스](https://www.acmicpc.net/problem/2606) | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)</br> [역사](https://www.acmicpc.net/problem/1613) |
+| Week 19 (20.07.26) | [동전 2](https://www.acmicpc.net/problem/2294) | [내려가기](https://www.acmicpc.net/problem/2096)</br> [암호 코드](https://www.acmicpc.net/problem/2011) |
 | Week 18 (20.07.19) | [스티커](https://www.acmicpc.net/problem/9465) | [다리 놓기](https://www.acmicpc.net/problem/1010)</br> [LCS](https://www.acmicpc.net/problem/9251) |
 | Week 17 (20.07.12) | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [포도주 시식](https://www.acmicpc.net/problem/2156)</br> [퇴사](https://www.acmicpc.net/problem/14501) |
 | Week 16 (20.07.04) | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [2xn 타일링](https://www.acmicpc.net/problem/11726)</br> [1로 만들기](https://www.acmicpc.net/problem/1463) |
 | Week 15 (20.06.27) | [랜선 자르기](https://www.acmicpc.net/problem/1654) | [K번째 수](https://www.acmicpc.net/problem/1300)</br> [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) |
 | Week 14 (20.06.21) | [공유기 설치](https://www.acmicpc.net/problem/2110) | [나무 자르기](https://www.acmicpc.net/problem/2805)</br> [수 찾기](https://www.acmicpc.net/problem/1920) |
 | Week 13 (20.06.14) | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [입국 심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br> [징검 다리](https://programmers.co.kr/learn/courses/30/lessons/43236) |
-| Week 12 (20.06.17) | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [안전 영역](https://www.acmicpc.net/problem/2468)</br> [DSLR](https://www.acmicpc.net/problem/9019) |
+| Week 12 (20.06.07) | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [안전 영역](https://www.acmicpc.net/problem/2468)</br> [DSLR](https://www.acmicpc.net/problem/9019) |
 | Week 11 (20.05.31) | [토마토](https://www.acmicpc.net/problem/7576) | [숨바꼭질](https://www.acmicpc.net/problem/1697)</br> [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | 
 </details>
 
@@ -59,3 +78,12 @@
 | Week 1 (20.03.15)  | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [로또](https://www.acmicpc.net/problem/6603)</br> [적록색약](https://www.acmicpc.net/problem/10026) |
 
 </details>
+
+</br>
+
+### :pushpin: Algorithm Site
+
+> 다음 사이트를 통해 문제 풀이를 진행합니다.
+
+- [BAEKJOON](https://www.acmicpc.net/)</br>
+- [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
