@@ -10,7 +10,7 @@
 >    - 당일 못 풀었던 문제와 함께 남은 문제 과제로 주중에 문제 풀이
 >    - 해당 주 스터디 미참여자는 과제로 문제 풀이 진행
 >4. 풀이 코드 업로드
->    - 해당 스터디 진행 날짜에 맞는 폴더(ex : week18 문제는 20200719 폴더)에 풀이 코드 업로드
+>    - 해당 스터디 진행 날짜에 맞는 폴더(ex : week18 문제는 week18_20200719 폴더)에 풀이 코드 업로드
 
 </br>
 
@@ -24,7 +24,7 @@
 </br>
 
 ### :bookmark_tabs: Week Study
- > Latest : week 21 - 20.08.15 </br>
+ > Latest : week 22 - 20.09.20 </br>
 
 <details>
 <summary> Week 21~30 </summary>
@@ -39,7 +39,7 @@
 | Week 25 (20.) | []() | []()</br> []() |
 | Week 24 (20.) | []() | []()</br> []() |
 | Week 23 (20.) | []() | []()</br> []() |
-| Week 22 (20.) | []() | []()</br> []() |
+| Week 22 (20.09.20) | [비밀 지도](https://programmers.co.kr/learn/courses/30/lessons/17681)</br>  [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)</br> [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | |
 | Week 21 (20.08.15) | [파티](https://www.acmicpc.net/problem/1238) | [도시 분할 계획](https://www.acmicpc.net/problem/1647)</br> [전력난](https://www.acmicpc.net/problem/6497) |
 </details>
 
@@ -74,8 +74,8 @@
 | Week 5 (20.04.12) | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)</br> [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)</br> [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) |
 | Week 4 (20.04.05) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)</br> [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)</br> [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) |
 | Week 3 (20.03.28) | [K번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)</br> [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)</br> [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)</br> [H-index](https://programmers.co.kr/learn/courses/30/lessons/42747) |
-| Week 2 (20.03.22)  | [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)</br> [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)</br> [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) |
-| Week 1 (20.03.15)  | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [로또](https://www.acmicpc.net/problem/6603)</br> [적록색약](https://www.acmicpc.net/problem/10026) |
+| Week 2 (20.03.22) | [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)</br> [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)</br> [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) |
+| Week 1 (20.03.15) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [로또](https://www.acmicpc.net/problem/6603)</br> [적록색약](https://www.acmicpc.net/problem/10026) |
 
 </details>
 
