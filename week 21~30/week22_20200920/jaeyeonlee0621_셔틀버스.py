@@ -20,14 +20,7 @@ def solution(n, t, m, timetable):
 
     last_time = 9 * 60 + (n - 1) * t
     if len(bus[last_time]) == m:
-        min_crew_time = bus[last_time][0]
-        count = 0
-        for crew_time in bus[last_time]:
-            if min_crew_time == crew_time:
-                count += 1
-        last_time = min_crew_time
-        if count == m:
-            last_time = min_crew_time - 1
+        last_time = bus[last_time][-1] - 1
 
     return f'{str(int(last_time / 60)).zfill(2)}:{str(int(last_time % 60)).zfill(2)}'
 
