@@ -50,15 +50,15 @@
 | Date | Today | Assignment | Memo |
 | :-: | :-: | :-: | :-: |
 | Week 20 (20.08.02) | [바이러스](https://www.acmicpc.net/problem/2606) | [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)</br> [역사](https://www.acmicpc.net/problem/1613) | Floyd Warshall |
-| Week 19 (20.07.26) | [동전 2](https://www.acmicpc.net/problem/2294) | [내려가기](https://www.acmicpc.net/problem/2096)</br> [암호 코드](https://www.acmicpc.net/problem/2011) | |
-| Week 18 (20.07.19) | [스티커](https://www.acmicpc.net/problem/9465) | [다리 놓기](https://www.acmicpc.net/problem/1010)</br> [LCS](https://www.acmicpc.net/problem/9251) | |
-| Week 17 (20.07.12) | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [포도주 시식](https://www.acmicpc.net/problem/2156)</br> [퇴사](https://www.acmicpc.net/problem/14501) | |
-| Week 16 (20.07.04) | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [2xn 타일링](https://www.acmicpc.net/problem/11726)</br> [1로 만들기](https://www.acmicpc.net/problem/1463) | |
-| Week 15 (20.06.27) | [랜선 자르기](https://www.acmicpc.net/problem/1654) | [K번째 수](https://www.acmicpc.net/problem/1300)</br> [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) | |
-| Week 14 (20.06.21) | [공유기 설치](https://www.acmicpc.net/problem/2110) | [나무 자르기](https://www.acmicpc.net/problem/2805)</br> [수 찾기](https://www.acmicpc.net/problem/1920) | |
-| Week 13 (20.06.14) | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [입국 심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br> [징검 다리](https://programmers.co.kr/learn/courses/30/lessons/43236) | |
-| Week 12 (20.06.07) | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [안전 영역](https://www.acmicpc.net/problem/2468)</br> [DSLR](https://www.acmicpc.net/problem/9019) | |
-| Week 11 (20.05.31) | [토마토](https://www.acmicpc.net/problem/7576) | [숨바꼭질](https://www.acmicpc.net/problem/1697)</br> [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | |
+| Week 19 (20.07.26) | [동전 2](https://www.acmicpc.net/problem/2294) | [내려가기](https://www.acmicpc.net/problem/2096)</br> [암호 코드](https://www.acmicpc.net/problem/2011) | DP |
+| Week 18 (20.07.19) | [스티커](https://www.acmicpc.net/problem/9465) | [다리 놓기](https://www.acmicpc.net/problem/1010)</br> [LCS](https://www.acmicpc.net/problem/9251) | DP |
+| Week 17 (20.07.12) | [정수 삼각형](https://www.acmicpc.net/problem/1932) | [포도주 시식](https://www.acmicpc.net/problem/2156)</br> [퇴사](https://www.acmicpc.net/problem/14501) | DP |
+| Week 16 (20.07.04) | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [2xn 타일링](https://www.acmicpc.net/problem/11726)</br> [1로 만들기](https://www.acmicpc.net/problem/1463) | DP |
+| Week 15 (20.06.27) | [랜선 자르기](https://www.acmicpc.net/problem/1654) | [K번째 수](https://www.acmicpc.net/problem/1300)</br> [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) | Binary Search |
+| Week 14 (20.06.21) | [공유기 설치](https://www.acmicpc.net/problem/2110) | [나무 자르기](https://www.acmicpc.net/problem/2805)</br> [수 찾기](https://www.acmicpc.net/problem/1920) | Binary Search |
+| Week 13 (20.06.14) | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [입국 심사](https://programmers.co.kr/learn/courses/30/lessons/43238)<br> [징검 다리](https://programmers.co.kr/learn/courses/30/lessons/43236) | Binary Search |
+| Week 12 (20.06.07) | [나이트의 이동](https://www.acmicpc.net/problem/7562) | [안전 영역](https://www.acmicpc.net/problem/2468)</br> [DSLR](https://www.acmicpc.net/problem/9019) | DFS, BFS |
+| Week 11 (20.05.31) | [토마토](https://www.acmicpc.net/problem/7576) | [숨바꼭질](https://www.acmicpc.net/problem/1697)</br> [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | DFS, BFS |
 </details>
 
 <details>
