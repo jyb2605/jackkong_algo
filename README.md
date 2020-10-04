@@ -66,16 +66,16 @@
 
 | Date | Today | Assignment | Memo |
 | :-: | :-: | :-: | :-: |
-| Week 10 (20.05.24) | [팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)</br> [연구소](https://www.acmicpc.net/problem/14502) | |
-| Week 9 (20.05.17) | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)</br> [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)</br> [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | |
-| Week 8 (20.05.10) | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)</br> [저울](https://programmers.co.kr/learn/courses/30/lessons/42886) | |
-| Week 7 (20.04.26) | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)</br> [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)</br> [배스트 엘범](https://programmers.co.kr/learn/courses/30/lessons/42579) | |
-| Week 6 (20.04.19) | | [나무 재테크](https://www.acmicpc.net/problem/16235) | |
-| Week 5 (20.04.12) | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)</br> [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)</br> [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) | |
-| Week 4 (20.04.05) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)</br> [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)</br> [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | |
-| Week 3 (20.03.28) | [K번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)</br> [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)</br> [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)</br> [H-index](https://programmers.co.kr/learn/courses/30/lessons/42747) | |
-| Week 2 (20.03.22) | [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)</br> [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)</br> [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | |
-| Week 1 (20.03.15) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [로또](https://www.acmicpc.net/problem/6603)</br> [적록색약](https://www.acmicpc.net/problem/10026) | |
+| Week 10 (20.05.24) | [팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)</br> [연구소](https://www.acmicpc.net/problem/14502) | Implementation, Brute Force |
+| Week 9 (20.05.17) | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)</br> [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)</br> [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | DFS, BFS |
+| Week 8 (20.05.10) | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)</br> [저울](https://programmers.co.kr/learn/courses/30/lessons/42886) | Greedy |
+| Week 7 (20.04.26) | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)</br> [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)</br> [배스트 엘범](https://programmers.co.kr/learn/courses/30/lessons/42579) | Hash |
+| Week 6 (20.04.19) | | [나무 재테크](https://www.acmicpc.net/problem/16235) | Implementation |
+| Week 5 (20.04.12) | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)</br> [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)</br> [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) | Greedy |
+| Week 4 (20.04.05) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)</br> [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)</br> [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | Heep |
+| Week 3 (20.03.28) | [K번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)</br> [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)</br> [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)</br> [H-index](https://programmers.co.kr/learn/courses/30/lessons/42747) | Sorting, Stack |
+| Week 2 (20.03.22) | [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)</br> [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)</br> [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | Stack, Queue |
+| Week 1 (20.03.15) | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [로또](https://www.acmicpc.net/problem/6603)</br> [적록색약](https://www.acmicpc.net/problem/10026) | DFS, BFS, Backtracking |
 
 </details>
 
