@@ -1,3 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/43105
+
 def solution(triangle):
     for h in range(1, len(triangle)):
         for c in range(len(triangle[h])):

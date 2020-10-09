@@ -1,3 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/42897
+
 def solution(money):
     dp = [[money[i] for i in range(len(money) - 1)] for _ in range(2)]
     for i in range(2, len(money) - 1):
