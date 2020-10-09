@@ -5,14 +5,14 @@ def solution(m, n, puddles):
     map[n - 1][m - 1] = -1
 
     for start, end in puddles:
-        map[start - 1][end - 1] = 0
+        map[end - 1][start - 1] = 0
 
     for y in range(1, n):
         for x in range(1, m):
             if map[y][x] == 0:
                 continue
             map[y][x] = map[y - 1][x] + map[y][x - 1]
-            
+
     return 0 if map[n - 1][m - 1] == -1 else map[n - 1][m - 1]
 
 
