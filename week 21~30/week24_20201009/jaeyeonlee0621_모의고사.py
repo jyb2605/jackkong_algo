@@ -4,9 +4,8 @@ def solution(answers):
 
     for i in range(3):
         score = 0
-        length = max(len(student[i]), len(answers))
-        for j in range(length):
-            if answers[j % len(answers)] == student[i][j % len(student[i])]:
+        for j in range(len(answers)):
+            if answers[j] == student[i][j % len(student[i])]:
                 score += 1
         scores[i] = score
 
