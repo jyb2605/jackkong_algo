@@ -36,8 +36,8 @@
 | Week 28 (20.) | []() | []()</br> []() | |
 | Week 27 (20.) | []() | []()</br> []() | |
 | Week 26 (20.) | []() | []()</br> []() | |
-| Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | |  |
-| Week 24 (20.10.17) | [레드 블루 스패닝 트리](https://www.acmicpc.net/problem/4792) | | MST 좀 더 어려운 문제 풀기 |
+| Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | | MST |
+| Week 24 (20.10.17) | [레드 블루 스패닝 트리](https://www.acmicpc.net/problem/4792) | | MST |
 | Week 23 (20.10.03) | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)</br> [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) |  | 프로그래머스 2018 Kakao 1차 |
 | Week 22 (20.09.20) | [비밀 지도](https://programmers.co.kr/learn/courses/30/lessons/17681)</br> [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)</br> [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | | 프로그래머스 2018 Kakao 1차 |
 | Week 21 (20.08.15) | [파티](https://www.acmicpc.net/problem/1238) | [도시 분할 계획](https://www.acmicpc.net/problem/1647)</br> [전력난](https://www.acmicpc.net/problem/6497) | Floyd Warshall, MST |
