@@ -3,7 +3,10 @@ from queue import PriorityQueue
 
 
 def find(parent, x):
-    return x if parent[x] == x else find(parent, parent[x])
+    if parent[x] == x:
+        return x
+    parent[x] = find(parent, parent[x])
+    return parent[x]
 
 
 # 입력 받기
