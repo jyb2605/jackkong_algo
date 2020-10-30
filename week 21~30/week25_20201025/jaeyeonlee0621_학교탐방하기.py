@@ -1,4 +1,5 @@
 import sys
+from queue import PriorityQueue
 
 
 def find(parent, x):
@@ -7,37 +8,23 @@ def find(parent, x):
 
 # 입력 받기
 n, m = map(int, sys.stdin.readline().split())
-up = []
-down = []
+up = PriorityQueue()
+down = PriorityQueue()
 
-zero = 0
 for _ in range(m + 1):
     start, end, road = map(int, sys.stdin.readline().split())
-    if start == 0:
-        zero = road
+    if start == 0 and end == 1:
         continue
-
-    up.append((road * -1, start, end))
-    up.append((road * -1, end, start))
-
-    down.append((road, start, end))
-    down.append((road, end, start))
+    up.put((road * -1, start, end))
+    down.put((road, start, end))
 
 
 def kruskal_algorithm(stair):
+    answer = 0
     parent = [i for i in range(n + 1)]
 
-    roads = [n + 1 for _ in range(n + 1)]
-    roads[0] = 0
-    roads[1] = zero
-
-    stair.sort()
-    for road, start, end in stair:
-        if road < 0:
-            road *= -1
-
-        if roads[end] != n + 1:
-            continue
+    while not stair.empty():
+        road, start, end = stair.get()
 
         start_parent = find(parent, start)
         end_parent = find(parent, end)
@@ -46,9 +33,10 @@ def kruskal_algorithm(stair):
             if start_parent < end_parent:
                 start_parent, end_parent = end_parent, start_parent
             parent[start_parent] = end_parent
-            roads[end] = road
+            if road == 0:
+                answer += 1
 
-    return (n - sum(roads)) ** 2
+    return answer ** 2
 
 
 print(kruskal_algorithm(down) - kruskal_algorithm(up))
