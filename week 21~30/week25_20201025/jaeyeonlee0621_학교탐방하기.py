@@ -1,14 +1,6 @@
 import sys
 from queue import PriorityQueue
 
-
-def find(parent, x):
-    if parent[x] == x:
-        return x
-    parent[x] = find(parent, parent[x])
-    return parent[x]
-
-
 # 입력 받기
 n, m = map(int, sys.stdin.readline().split())
 up = PriorityQueue()
@@ -20,6 +12,13 @@ for _ in range(m + 1):
         continue
     up.put((road * -1, start, end))
     down.put((road, start, end))
+
+
+def find(parent, x):
+    if parent[x] == x:
+        return x
+    parent[x] = find(parent, parent[x])
+    return parent[x]
 
 
 def kruskal_algorithm(stair):
