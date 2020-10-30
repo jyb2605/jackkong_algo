@@ -1,49 +1,60 @@
 # https://www.acmicpc.net/problem/4792
 import sys
+
 from queue import PriorityQueue
+
+
+def find(parent, x):
+    if parent[x] == x:
+        return x
+    parent[x] = find(parent, parent[x])
+    return parent[x]
+
+
+def kruskal_algorithm(color):
+    answer = 0
+    parent = [i for i in range(n + 1)]
+
+    nodes = blue if color == 'B' else red
+    color_status = 0 if color == 'B' else 1
+
+    while not nodes.empty():
+        color, start, end = nodes.get()
+
+        start_parent = find(parent, start)
+        end_parent = find(parent, end)
+
+        if start_parent != end_parent:
+            if start_parent < end_parent:
+                start_parent, end_parent = end_parent, start_parent
+            parent[start_parent] = end_parent
+            if color_status == color:
+                answer += 1
+
+    return answer
+
 
 while True:
     n, m, k = map(int, sys.stdin.readline().split())
     if n == m == k == 0:
         break
 
-    graph = [[] for _ in range(n)]
-    visited = [0 for _ in range(n)]
+    red = PriorityQueue()
+    blue = PriorityQueue()
 
     for _ in range(m):
-        color, start, end = map(int, sys.stdin.readline().split())
-        graph[start].append((color, end))
-        graph[end].append((color, start))
+        color, start, end = map(str, sys.stdin.readline().split())
 
-    for i in range(n):
-        answer = 0
+        start, end = int(start), int(end)
+        if color == 'B':
+            red.put((1, start, end))
+            blue.put((0, start, end))
 
-        queue = PriorityQueue()
-        for node, color in graph[i]:
-            queue.put((color, i, node))
+        if color == 'R':
+            red.put((0, start, end))
+            blue.put((1, start, end))
 
-        visited = [[] for _ in range(n)]
-        visited[i] = 1
-        while queue:
-            count = 0
-            for i in range(n):
-                count += len(visited[i])
-            if count / 2 == k:
+    min_ = kruskal_algorithm('R')
+    max_ = kruskal_algorithm('B')
 
-            if len(visited) - 1 == k:
-                answer = 1
-                break
-
-            node1, node2 = queue.popleft()
-            if visited[node2]:
-                continue
-
-            if find(node1) == find(node2):
-                continue
-
-            union(node1, node2)
-            visited[node2] = 1
-            for j in graph[node2]:
-                queue.append((node2, j))
-
-        print(answer)
+    print(int(min_ <= k <= max_))
