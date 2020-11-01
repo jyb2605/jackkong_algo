@@ -5,13 +5,15 @@ from queue import PriorityQueue
 n, m = map(int, sys.stdin.readline().split())
 up = PriorityQueue()
 down = PriorityQueue()
+zero = 0
 
 for _ in range(m + 1):
     start, end, road = map(int, sys.stdin.readline().split())
     if start == 0 and end == 1:
+        zero = road
         continue
-    up.put((road * -1, start, end))
-    down.put((road, start, end))
+    down.put((road * -1, start, end))
+    up.put((road, start, end))
 
 
 def find(parent, x):
@@ -22,6 +24,7 @@ def find(parent, x):
 
 
 def kruskal_algorithm(stair):
+    vertex = 0
     answer = 0
     parent = [i for i in range(n + 1)]
 
@@ -32,13 +35,18 @@ def kruskal_algorithm(stair):
         end_parent = find(parent, end)
 
         if start_parent != end_parent:
-            if start_parent < end_parent:
-                start_parent, end_parent = end_parent, start_parent
+            vertex += 1
             parent[start_parent] = end_parent
             if road == 0:
                 answer += 1
 
+        if vertex == n - 1:
+            break
+
+    if zero == 0:
+        answer += 1
+
     return answer ** 2
 
 
-print(kruskal_algorithm(down) - kruskal_algorithm(up))
+print(kruskal_algorithm(up) - kruskal_algorithm(down))
