@@ -12,6 +12,7 @@ def find(parent, x):
 
 
 def kruskal_algorithm(color):
+    vertex = 0
     answer = 0
     parent = [i for i in range(n + 1)]
 
@@ -25,11 +26,16 @@ def kruskal_algorithm(color):
         end_parent = find(parent, end)
 
         if start_parent != end_parent:
+            vertex += 1
             if start_parent < end_parent:
                 start_parent, end_parent = end_parent, start_parent
             parent[start_parent] = end_parent
             if color_status == color:
                 answer += 1
+
+        # 시간 초과 해결 방법
+        if vertex == n - 1:
+            break
 
     return answer
 
