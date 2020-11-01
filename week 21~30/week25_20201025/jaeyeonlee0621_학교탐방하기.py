@@ -46,6 +46,7 @@ def kruskal_algorithm(stair):
             if road == 0:
                 answer += 1
 
+        # 시간 초과 해결 방법
         if vertex == n - 1:
             break
 
