@@ -1,7 +1,7 @@
 /*
  * 2020-11-01
  * 휴대폰 자판
- * https://www.acmicpc.net/problem/5052
+ * https://www.acmicpc.net/problem/5670
  *
  * trie로 입력으로 들어온 영단어 모두 추가하고 순회하여
  * 순회시 입력 갯수가 추가될 경우 weight + 1 해주고 단어가 완성되는

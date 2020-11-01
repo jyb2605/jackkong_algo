@@ -1,5 +1,7 @@
 # 💡 Jackkong Algorithm Study
 
+> Latest : week 26 - 20.11.01 </br>
+
 ### :hourglass_flowing_sand: How?
 
 >1. 문제 선택
@@ -24,7 +26,6 @@
 </br>
 
 ### :bookmark_tabs: Week Study
- > Latest : week 25 - 20.10.25 </br>
 
 <details>
 <summary> Week 21~30 </summary>
@@ -35,7 +36,7 @@
 | Week 29 (20.) | []() | []()</br> []() | |
 | Week 28 (20.) | []() | []()</br> []() | |
 | Week 27 (20.) | []() | []()</br> []() | |
-| Week 26 (20.) | []() | []()</br> []() | |
+| Week 26 (20.11.01) | [전화번호 목록](https://www.acmicpc.net/problem/5052)</br> [휴대폰 자판](https://www.acmicpc.net/problem/5670) | []()</br>  | Trie |
 | Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | | MST |
 | Week 24 (20.10.17) | [레드 블루 스패닝 트리](https://www.acmicpc.net/problem/4792) | | MST |
 | Week 23 (20.10.03) | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)</br> [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) |  | 프로그래머스 2018 Kakao 1차 |
