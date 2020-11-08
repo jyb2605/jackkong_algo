@@ -10,20 +10,12 @@ class Node:
         return f'{self.char} {self.next}'
 
 
-def search(word):
-    present_node = root_node
-    for character in word:
-        present_node = present_node.next.get(character)
-        if not present_node:
-            return False
-    return True
-
-
 def dfs(y, x, word, visited, node):
-    if search(word):
-        answer[word] = 1
+    answer[word] = 1
+
     if len(word) == 8:
         return
+
     for x_move, y_move in [(0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (1, -1), (-1, 1), (-1, -1)]:
         y_, x_ = y + y_move, x + x_move
         if 0 <= x_ < 4 and 0 <= y_ < 4 and visited[y_][x_] == 0:
