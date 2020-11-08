@@ -65,9 +65,7 @@ for i in range(board_count):
             if len_word == 8:
                 total_point += 11
 
-            if len(longest_word) < len(word):
-                longest_word = word
-            elif len(longest_word) == len(word) and longest_word[0] > word[0]:
+            if len(longest_word) < len(word) or (len(longest_word) == len(word) and longest_word > word):
                 longest_word = word
 
     print(f'{total_point} {longest_word} {total_count}')
