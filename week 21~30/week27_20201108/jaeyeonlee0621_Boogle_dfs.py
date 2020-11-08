@@ -39,6 +39,8 @@ for i in range(board_count):
                 y, x, w = stack.pop()
 
                 is_find = (w == len(word) - 1)
+                if w > 8:
+                    continue
                 if is_find:
                     break
                 if visited[y][x] == 1:
