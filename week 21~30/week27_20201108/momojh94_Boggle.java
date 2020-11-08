@@ -4,6 +4,9 @@
  * https://www.acmicpc.net/problem/9202
  *
  * trie
+ *
+ * 메모리		시간
+ * 487096kb	6380ms
  */
 
 import java.io.*;
