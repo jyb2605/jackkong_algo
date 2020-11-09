@@ -1,6 +1,6 @@
 # 💡 Jackkong Algorithm Study
 
-> Latest : week 26 - 20.11.01 </br>
+> Latest : week 27 - 20.11.08 </br>
 
 ### :hourglass_flowing_sand: How?
 
@@ -35,9 +35,9 @@
 | Week 30 (20.) | []() | []()</br> []() | |
 | Week 29 (20.) | []() | []()</br> []() | |
 | Week 28 (20.) | []() | []()</br> []() | |
-| Week 27 (20.) | []() | []()</br> []() | |
-| Week 26 (20.11.01) | [전화번호 목록](https://www.acmicpc.net/problem/5052)</br> [휴대폰 자판](https://www.acmicpc.net/problem/5670) | []()</br>  | Trie |
-| Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | | MST |
+| Week 27 (20.11.08) | [Boggle](https://www.acmicpc.net/problem/9202) | [용량 부족](https://www.acmicpc.net/problem/5446) | Trie | 
+| Week 26 (20.11.01) | [전화번호 목록](https://www.acmicpc.net/problem/5052)</br> [휴대폰 자판](https://www.acmicpc.net/problem/5670) | [개미굴](https://www.acmicpc.net/problem/14725)</br>  | Trie |
+| Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | [행성 터널](https://www.acmicpc.net/problem/2887) | MST |
 | Week 24 (20.10.17) | [레드 블루 스패닝 트리](https://www.acmicpc.net/problem/4792) | | MST |
 | Week 23 (20.10.03) | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)</br> [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) |  | 프로그래머스 2018 Kakao 1차 |
 | Week 22 (20.09.20) | [비밀 지도](https://programmers.co.kr/learn/courses/30/lessons/17681)</br> [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)</br> [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | | 프로그래머스 2018 Kakao 1차 |
