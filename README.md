@@ -1,11 +1,11 @@
 # 💡 Jackkong Algorithm Study
 
-> Latest : week 27 - 20.11.08 </br>
+> Latest : week 28 - 20.11.22 </br>
 
 ### :hourglass_flowing_sand: How?
 
 >1. 문제 선택
->    - 매주 1회 주제와 문제 3~4개 선택
+>    - 주 1회 주제와 문제 선택
 >2. 문제 풀이 및 리뷰
 >    - 지난 주 풀었던 문제 혹은 당일 최소 1개 문제 해결 후 리뷰
 >3. 과제
@@ -34,7 +34,7 @@
 | :-: | :-: | :-: | :-: | 
 | Week 30 (20.) | []() | []()</br> []() | |
 | Week 29 (20.) | []() | []()</br> []() | |
-| Week 28 (20.) | []() | []()</br> []() | |
+| Week 28 (20.11.22) | [Contact](https://www.acmicpc.net/problem/1013)</br>[잠수함식별](https://www.acmicpc.net/problem/2671)</br>[무어 기계](https://www.acmicpc.net/problem/3300) | [스러피](https://www.acmicpc.net/problem/14906) | Regular Expression |
 | Week 27 (20.11.08) | [Boggle](https://www.acmicpc.net/problem/9202) | [용량 부족](https://www.acmicpc.net/problem/5446) | Trie | 
 | Week 26 (20.11.01) | [전화번호 목록](https://www.acmicpc.net/problem/5052)</br> [휴대폰 자판](https://www.acmicpc.net/problem/5670) | [개미굴](https://www.acmicpc.net/problem/14725)</br>  | Trie |
 | Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | [행성 터널](https://www.acmicpc.net/problem/2887) | MST |
