@@ -1,6 +1,6 @@
 # 💡 Jackkong Algorithm Study
 
-> Latest : week 28 - 20.11.22 </br>
+> Latest : week 29 - 20.11.29 </br>
 
 ### :hourglass_flowing_sand: How?
 
@@ -33,7 +33,7 @@
 | Date | Today | Assignment | Memo |
 | :-: | :-: | :-: | :-: | 
 | Week 30 (20.) | []() | []()</br> []() | |
-| Week 29 (20.) | []() | []()</br> []() | |
+| Week 29 (20.11.29) | [수들의 합 2](https://www.acmicpc.net/problem/2003)</br> [부분합](https://www.acmicpc.net/problem/1806)</br> [소수의 연속합](https://www.acmicpc.net/problem/1644) | [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | Two Pointers |
 | Week 28 (20.11.22) | [Contact](https://www.acmicpc.net/problem/1013)</br>[잠수함식별](https://www.acmicpc.net/problem/2671)</br>[무어 기계](https://www.acmicpc.net/problem/3300) | [스러피](https://www.acmicpc.net/problem/14906) | Regular Expression |
 | Week 27 (20.11.08) | [Boggle](https://www.acmicpc.net/problem/9202) | [용량 부족](https://www.acmicpc.net/problem/5446) | Trie | 
 | Week 26 (20.11.01) | [전화번호 목록](https://www.acmicpc.net/problem/5052)</br> [휴대폰 자판](https://www.acmicpc.net/problem/5670) | [개미굴](https://www.acmicpc.net/problem/14725)</br>  | Trie |
