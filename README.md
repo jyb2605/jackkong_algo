@@ -1,9 +1,11 @@
 # 💡 Jackkong Algorithm Study
 
+> Latest : week 29 - 20.11.29 </br>
+
 ### :hourglass_flowing_sand: How?
 
 >1. 문제 선택
->    - 매주 1회 주제와 문제 3~4개 선택
+>    - 주 1회 주제와 문제 선택
 >2. 문제 풀이 및 리뷰
 >    - 지난 주 풀었던 문제 혹은 당일 최소 1개 문제 해결 후 리뷰
 >3. 과제
@@ -24,19 +26,17 @@
 </br>
 
 ### :bookmark_tabs: Week Study
- > Latest : week 25 - 20.10.25 </br>
 
 <details>
 <summary> Week 21~30 </summary>
 
 | Date | Today | Assignment | Memo |
 | :-: | :-: | :-: | :-: | 
-| Week 30 (20.) | []() | []()</br> []() | |
-| Week 29 (20.) | []() | []()</br> []() | |
-| Week 28 (20.) | []() | []()</br> []() | |
-| Week 27 (20.) | []() | []()</br> []() | |
-| Week 26 (20.) | []() | []()</br> []() | |
-| Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | | MST |
+| Week 29 (20.11.29) | [수들의 합 2](https://www.acmicpc.net/problem/2003)</br> [부분합](https://www.acmicpc.net/problem/1806)</br> [소수의 연속합](https://www.acmicpc.net/problem/1644) | [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | Two Pointers |
+| Week 28 (20.11.22) | [Contact](https://www.acmicpc.net/problem/1013)</br>[잠수함식별](https://www.acmicpc.net/problem/2671)</br>[무어 기계](https://www.acmicpc.net/problem/3300) | [스러피](https://www.acmicpc.net/problem/14906) | Regular Expression |
+| Week 27 (20.11.08) | [Boggle](https://www.acmicpc.net/problem/9202) | [용량 부족](https://www.acmicpc.net/problem/5446) | Trie | 
+| Week 26 (20.11.01) | [전화번호 목록](https://www.acmicpc.net/problem/5052)</br> [휴대폰 자판](https://www.acmicpc.net/problem/5670) | [개미굴](https://www.acmicpc.net/problem/14725)</br>  | Trie |
+| Week 25 (20.10.25) | [학교 탐방하기](https://www.acmicpc.net/problem/13418)</br> | [행성 터널](https://www.acmicpc.net/problem/2887) | MST |
 | Week 24 (20.10.17) | [레드 블루 스패닝 트리](https://www.acmicpc.net/problem/4792) | | MST |
 | Week 23 (20.10.03) | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)</br> [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) |  | 프로그래머스 2018 Kakao 1차 |
 | Week 22 (20.09.20) | [비밀 지도](https://programmers.co.kr/learn/courses/30/lessons/17681)</br> [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)</br> [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | | 프로그래머스 2018 Kakao 1차 |
