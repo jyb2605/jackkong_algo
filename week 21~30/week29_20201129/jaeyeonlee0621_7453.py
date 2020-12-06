@@ -9,15 +9,14 @@ for _ in range(n):
 AB, CD = [], []
 for i in range(n):
     for j in range(n):
-        pass
+        AB.append(ABCD[i][0] + ABCD[j][1])
+        CD.append(ABCD[i][2] + ABCD[j][3])
 
 AB.sort()
 CD.sort()
-print(AB)
-print(CD)
 
-start, end, answer = 0, n - 1, 0
-while 0 <= start < n and 0 <= end < n:
+start, end, answer = 0, len(CD) - 1, 0
+while 0 <= start < len(AB) and 0 <= end < len(CD):
     sum = AB[start] + CD[end]
     if sum == 0:
         answer += 1
