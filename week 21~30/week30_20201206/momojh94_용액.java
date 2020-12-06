@@ -4,6 +4,9 @@
  * https://www.acmicpc.net/problem/2467
  * 투 포인터
  * 
+ * minDiff 초기 값 때문에 틀림.
+ * 10억+ (10억-1) 로 하면 20억 - 1 까지 나올 수 있는데 초기 값 15억으로 해서
+ * 75%에서 틀렸음.
  */
 
 import java.io.BufferedReader;
@@ -19,23 +22,19 @@ class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int retLeftNum = 0;
         int retRightNum = 0;
-        int minDiff = 1555555555;
         int n = Integer.parseInt(br.readLine());
         int[] waters = new int[n];
         StringTokenizer st = new StringTokenizer(br.readLine());
-
         for(int idx = 0; idx < n; idx++) {
             waters[idx] = Integer.parseInt(st.nextToken());
         }
 
         int left = 0;
         int right = n - 1;
-        int currentSum = waters[0] + waters[right];
         int currentDiff = 0;
+        int minDiff = Integer.MAX_VALUE;
         while (left < right) {
-            currentDiff = currentSum >= 0
-                    ? currentSum
-                    : -currentSum;
+            currentDiff = Math.abs(waters[left] + waters[right]);
             if(currentDiff < minDiff) {
                 minDiff = currentDiff;
                 retLeftNum = waters[left];
@@ -45,16 +44,15 @@ class Main {
                 }
             }
 
-            if(currentSum < 0) {
-                currentSum -= waters[left++];
-                currentSum += waters[left];
+            if(waters[left] + waters[right] < 0) {
+                left++;
             }else {
-                currentSum -= waters[right--];
-                currentSum += waters[right];
+                right--;
             }
         }
 
-        bw.write(retLeftNum + " " + retRightNum);
+        String str = retLeftNum + " " + retRightNum;
+        bw.write(str);
         bw.newLine();
         bw.flush();
         bw.close();
