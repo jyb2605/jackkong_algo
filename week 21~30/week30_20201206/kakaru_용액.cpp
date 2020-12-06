@@ -14,10 +14,10 @@ int main()
 		cin >> x;
 		A.push_back(x);
 	}
-	int s = 0, e = A.size() - 1, sum = 0, chk = 0, tmpSum = abs(A[s] + A[e]);
+	int s = 0, e = A.size() - 1, sum = 0, tmpSum = abs(A[s] + A[e]);
 	int x = 0, y = 0;
 
-	while (1) {
+	while (s<e) {
 		sum = A[s] + A[e];
 		if (sum == 0) {
 			x = A[s], y = A[e];
@@ -29,14 +29,10 @@ int main()
 		}
 		if (sum < 0) {
 			s++;
-			chk++;
 		}
 		if (sum > 0) {
 			e--;
-			chk++;
 		}
-		if (chk > A.size() - 2)
-			break;
 	}
 	cout << x <<" "<< y << endl;
 	return 0;
