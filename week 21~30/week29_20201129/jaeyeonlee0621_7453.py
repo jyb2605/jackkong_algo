@@ -1,10 +1,7 @@
 import sys
 
 n = int(sys.stdin.readline().strip())
-
-ABCD = []
-for _ in range(n):
-    ABCD.append(list(map(int, sys.stdin.readline().split())))
+ABCD = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
 
 AB, CD = [], []
 for i in range(n):
