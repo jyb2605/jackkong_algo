@@ -1,6 +1,6 @@
 # 💡 Jackkong Algorithm Study
 
-> Latest : week 29 - 20.11.29 </br>
+> Latest : week 30 - 20.12.06 </br>
 
 ### :hourglass_flowing_sand: How?
 
@@ -28,10 +28,28 @@
 ### :bookmark_tabs: Week Study
 
 <details>
+<summary> Week 31~40 </summary>
+
+| Date | Today | Assignment | Memo |
+| :-: | :-: | :-: | :-: |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week (..) | []()</br> []() | []() |  |
+| Week 31 (..) | []()</br> []() | []() |  |
+</details>
+
+<details>
 <summary> Week 21~30 </summary>
 
 | Date | Today | Assignment | Memo |
-| :-: | :-: | :-: | :-: | 
+| :-: | :-: | :-: | :-: |
+| Week 30 (20.12.06) | [주몽](https://www.acmicpc.net/problem/1940)</br> [용액](https://www.acmicpc.net/problem/2467) | [집배원 한상덕](https://www.acmicpc.net/problem/2842) | Two Pointers |
 | Week 29 (20.11.29) | [수들의 합 2](https://www.acmicpc.net/problem/2003)</br> [부분합](https://www.acmicpc.net/problem/1806)</br> [소수의 연속합](https://www.acmicpc.net/problem/1644) | [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) | Two Pointers |
 | Week 28 (20.11.22) | [Contact](https://www.acmicpc.net/problem/1013)</br>[잠수함식별](https://www.acmicpc.net/problem/2671)</br>[무어 기계](https://www.acmicpc.net/problem/3300) | [스러피](https://www.acmicpc.net/problem/14906) | Regular Expression |
 | Week 27 (20.11.08) | [Boggle](https://www.acmicpc.net/problem/9202) | [용량 부족](https://www.acmicpc.net/problem/5446) | Trie | 
