@@ -10,24 +10,19 @@ for _ in range(n):
     C.append(c)
     D.append(d)
 
-AB, CD = [], []
+CD = {}
 for i in range(n):
     for j in range(n):
-        AB.append(A[i] + B[j])
-        CD.append(C[i] + D[j])
+        sum = C[i] + D[j]
+        if not CD.get(sum):
+            CD[sum] = 0
+        CD[sum] += 1
 
-AB.sort()
-CD.sort()
-
-start, end, answer = 0, len(CD) - 1, 0
-while 0 <= start < len(AB) and 0 <= end < len(CD):
-    sum = AB[start] + CD[end]
-    if sum == 0:
-        answer += 1
-        start, end = start + 1, end - 1
-    elif sum > 0:
-        end -= 1
-    else:
-        start += 1
+answer = 0
+for i in range(n):
+    for j in range(n):
+        sum = (A[i] + B[j]) * -1
+        if CD.get(sum):
+            answer += CD[sum]
 
 print(answer)
