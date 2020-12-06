@@ -1,13 +1,20 @@
 import sys
 
 n = int(sys.stdin.readline().strip())
-ABCD = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
+
+A, B, C, D = [], [], [], []
+for _ in range(n):
+    a, b, c, d = map(int, sys.stdin.readline().split())
+    A.append(a)
+    B.append(b)
+    C.append(c)
+    D.append(d)
 
 AB, CD = [], []
 for i in range(n):
     for j in range(n):
-        AB.append(ABCD[i][0] + ABCD[j][1])
-        CD.append(ABCD[i][2] + ABCD[j][3])
+        AB.append(A[i] + B[j])
+        CD.append(C[i] + D[j])
 
 AB.sort()
 CD.sort()
