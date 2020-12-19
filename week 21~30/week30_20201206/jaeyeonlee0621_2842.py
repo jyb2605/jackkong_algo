@@ -52,12 +52,11 @@ def bfs(left, right):
 
 
 answer, left, right = 10_000_000_000, 0, 0
-while right < len(tired_range):
-    while left < len(tired_range):
-        if not bfs(left, right):
-            break
-        answer = min(answer, tired_range[right] - tired_range[left])
-        left += 1
-    right += 1
+while right < len(tired_range) and left < len(tired_range):
+    if not bfs(left, right):
+        right += 1
+        continue
+    answer = min(answer, tired_range[right] - tired_range[left])
+    left += 1
 
 print(answer)
