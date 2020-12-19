@@ -54,7 +54,7 @@ def bfs(left, right):
     return False
 
 
-answer, left, right = 10_000_000_000, 0, 0
+answer, left, right = sys.maxsize, 0, 0
 while left <= right and right < len(tired_range):
     if not bfs(left, right):
         right += 1
