@@ -21,6 +21,9 @@ tired_range = sorted(list(set(tired_range)))
 
 
 def bfs(left, right):
+    if not (tired_range[left] <= tired[start[0]][start[1]] <= tired_range[right]):
+        return False
+
     visited = [[0 for _ in range(n)] for _ in range(n)]
     visited[start[0]][start[1]] = 1
 
@@ -52,11 +55,11 @@ def bfs(left, right):
 
 
 answer, left, right = 10_000_000_000, 0, 0
-while right < len(tired_range) and left < len(tired_range):
+while left <= right and right < len(tired_range):
     if not bfs(left, right):
         right += 1
-        continue
-    answer = min(answer, tired_range[right] - tired_range[left])
-    left += 1
+    else:
+        answer = min(answer, tired_range[right] - tired_range[left])
+        left += 1
 
 print(answer)
