@@ -51,12 +51,13 @@ def bfs(left, right):
     return False
 
 
-answer, left = 10_000_000_000, 0
-for right in range(len(tired_range)):
-    while True:
+answer, left, right = 10_000_000_000, 0, 0
+while right < len(tired_range):
+    while left < len(tired_range):
         if not bfs(left, right):
             break
         answer = min(answer, tired_range[right] - tired_range[left])
         left += 1
+    right += 1
 
 print(answer)
