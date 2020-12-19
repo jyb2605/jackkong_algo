@@ -35,22 +35,26 @@ def bfs(left, right):
 
         for dy, dx in d:
             y_, x_ = y + dy, x + dx
-            if 0 <= y_ < n and 0 <= x_ < n and visited[y_][x_] == 0 and tired_range[left] <= tired[y_][x_] <= \
-                    tired_range[right]:
-                visited[y_][x_] = 1
-                if map_[y_][x_] == 'K':
-                    k_ += 1
-                if k_ == k:
-                    return k_
-                queue.append([y_, x_])
-    return k_
+            if not (0 <= y_ < n and 0 <= x_ < n):
+                continue
+            if visited[y_][x_] == 1:
+                continue
+            if not (tired_range[left] <= tired[y_][x_] <= tired_range[right]):
+                continue
+            visited[y_][x_] = 1
+            if map_[y_][x_] == 'K':
+                k_ += 1
+            if k_ == k:
+                return True
+            queue.append([y_, x_])
+
+    return False
 
 
-answer, left = 1_000_000, 0
+answer, left = 10_000_000_000, 0
 for right in range(len(tired_range)):
     while True:
-        k_ = bfs(left, right)
-        if k_ != k:
+        if not bfs(left, right):
             break
         answer = min(answer, tired_range[right] - tired_range[left])
         left += 1
