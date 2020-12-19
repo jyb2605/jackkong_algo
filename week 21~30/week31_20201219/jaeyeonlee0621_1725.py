@@ -4,22 +4,17 @@ n = int(sys.stdin.readline().strip())
 graph = [int(sys.stdin.readline().strip()) for _ in range(n)]
 
 answer = 0
+
+stack = []
 for i in range(n):
-    now, width = graph[i], graph[i]
-    left, right = i - 1, i + 1
+    while stack and stack[-1][1] > graph[i]:
+        index, width = stack.pop()
+        answer = max((i - index) * width, answer)
+    stack.append((i, graph[i]))
 
-    while left >= 0:
-        if graph[left] < now:
-            break
-        width += now
-        left -= 1
-
-    while right < n:
-        if graph[right] < now:
-            break
-        width += now
-        right += 1
-
-    answer = max(answer, width)
+index_ = stack[-1][0] + 1
+while stack:
+    index, width = stack.pop()
+    answer = max((index_ - index) * width, answer)
 
 print(answer)
