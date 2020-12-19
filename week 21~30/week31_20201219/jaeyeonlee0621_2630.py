@@ -1,17 +1,15 @@
 import sys
 
-n = int(sys.stdin.readline().strip())
-paper = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
+length = int(sys.stdin.readline().strip())
+paper = [list(map(int, sys.stdin.readline().split())) for _ in range(length)]
 
 white, blue = 0, 0
-length = 8
-
 while length > 1:
     paper_ = []
-    for y in range(0, length, 2):
+    for y in range(0, length - 1, 2):
         line = []
-        for x in range(0, length, 2):
-            if paper[y][x] == paper[y][x + 1] == paper[y + 1][x + 1]:
+        for x in range(0, length - 1, 2):
+            if paper[y][x] == paper[y + 1][x] == paper[y][x + 1] == paper[y + 1][x + 1]:
                 line.append(paper[y][x])
 
             else:
