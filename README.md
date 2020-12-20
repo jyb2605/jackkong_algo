@@ -1,6 +1,6 @@
 # 💡 Jackkong Algorithm Study
 
-> Latest : week 30 - 20.12.06 </br>
+> Latest : week 31 - 20.12.19 </br>
 
 ### :hourglass_flowing_sand: How?
 
@@ -32,16 +32,16 @@
 
 | Date | Today | Assignment | Memo |
 | :-: | :-: | :-: | :-: |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week (..) | []()</br> []() | []() |  |
-| Week 31 (..) | []()</br> []() | []() |  |
+| Week 40 (..) | []()</br> []() | []()</br> []() |  |
+| Week 39 (..) | []()</br> []() | []()</br> []() |  |
+| Week 38 (..) | []()</br> []() | []()</br> []() |  |
+| Week 37 (..) | []()</br> []() | []()</br> []() |  |
+| Week 36 (..) | []()</br> []() | []()</br> []() |  |
+| Week 35 (..) | []()</br> []() | []()</br> []() |  |
+| Week 34 (..) | []()</br> []() | []()</br> []() |  |
+| Week 33 (..) | []()</br> []() | []()</br> []() |  |
+| Week 32 (..) | []()</br> []() | []()</br> []() |  |
+| Week 31 (20.12.19) | [색종이 만들기](https://www.acmicpc.net/problem/2630) | [히스토그램](https://www.acmicpc.net/problem/1725)</br> | 분할 정복 |
 </details>
 
 <details>
@@ -103,5 +103,5 @@
 
 > 다음 사이트를 통해 문제 풀이를 진행합니다.
 
-- [BAEKJOON](https://www.acmicpc.net/)</br>
+- [Baekjoon](https://www.acmicpc.net/)</br>
 - [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
