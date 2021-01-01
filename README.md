@@ -1,6 +1,6 @@
 # 💡 Jackkong Algorithm Study
 
-> Latest : week 31 - 20.12.19 </br>
+> Latest : week 32 - 21.01.01 </br>
 
 ### :hourglass_flowing_sand: How?
 
@@ -40,7 +40,7 @@
 | Week 35 (..) | []()</br> []() | []()</br> []() |  |
 | Week 34 (..) | []()</br> []() | []()</br> []() |  |
 | Week 33 (..) | []()</br> []() | []()</br> []() |  |
-| Week 32 (..) | []()</br> []() | []()</br> []() |  |
+| Week 32 (21.01.01) | [행렬 제곱](https://www.acmicpc.net/problem/10830) | [별 찍기 - 10](https://www.acmicpc.net/problem/2447) | 분할 정복 |
 | Week 31 (20.12.19) | [색종이 만들기](https://www.acmicpc.net/problem/2630) | [히스토그램](https://www.acmicpc.net/problem/1725)</br> | 분할 정복 |
 </details>
 
