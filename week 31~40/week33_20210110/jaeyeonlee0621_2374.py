@@ -13,7 +13,7 @@ for i in range(n):
         continue
 
     answer += num - queue[-1]
-    while queue or queue[-1] < num:
+    while queue and queue[-1] < num:
         queue.pop()
 
     queue.append(num)
